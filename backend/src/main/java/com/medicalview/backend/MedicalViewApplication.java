@@ -1,4 +1,4 @@
-package com.medicalview.backend.backend;
+package com.medicalview.backend;
 
 import jakarta.ws.rs.ApplicationPath;
 import jakarta.ws.rs.core.Application;
