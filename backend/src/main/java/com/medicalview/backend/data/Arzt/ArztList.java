@@ -1,4 +1,4 @@
-package com.medicalview.backend.data;
+package com.medicalview.backend.data.Arzt;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.annotation.JsonProperty;
@@ -11,10 +11,9 @@ import java.util.List;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-@JsonIgnoreProperties({"crs"})
-public class ApothekenList {
-    private String type;
+@JsonIgnoreProperties({"crs", "type"})
+public class ArztList {
     private int totalFeatures;
     @JsonProperty("features")
-    private List<Apotheke> apotheken;
+    private List<Arzt> aerzte;
 }

@@ -1,4 +1,5 @@
-package com.medicalview.backend.data;
+package com.medicalview.backend.data.Arzt;
+
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
