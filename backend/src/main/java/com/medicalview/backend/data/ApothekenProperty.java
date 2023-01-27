@@ -21,7 +21,7 @@ public class ApothekenProperty {
     private String strasse;
     @JsonProperty("ONR")
     private String onr;
-    @JsonProperty("ADRESS")
+    @JsonProperty("ADRESSE")
     private String adresse;
     @JsonProperty("TELEFON")
     private String telefon;
