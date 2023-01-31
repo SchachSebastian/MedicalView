@@ -1,4 +1,4 @@
-package com.medicalview.backend.data;
+package com.medicalview.backend.data.Apotheke;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.mashape.unirest.http.HttpResponse;
@@ -37,6 +37,13 @@ public class ApothekenDB {
     }
 
     public ApothekenList getApothekenList(){
+        if(apothekenList == null){
+            try {
+                init();
+            } catch (UnirestException | IOException e) {
+                throw new RuntimeException(e);
+            }
+        }
         return apothekenList;
     }
 

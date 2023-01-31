@@ -1,5 +1,6 @@
-package com.medicalview.backend.data;
+package com.medicalview.backend.data.Apotheke;
 
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -7,8 +8,8 @@ import lombok.NoArgsConstructor;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
+@JsonIgnoreProperties("type")
 public class Apotheke {
-    private String type;
     private String id;
     private Geometry geometry;
     private String geometry_name;
