@@ -13,7 +13,7 @@ public class MedicalViewRessource {
     @GET
     @Path("/apotheken")
     @Produces("application/json")
-    public ApothekenList getApotheken() {
+    public ApothekenList getApotheken() {   
         return ApothekenDB.getInstance().getApothekenList();
     }
 
