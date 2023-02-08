@@ -1,0 +1,28 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-ear" build-on-make="true" name="backend:javaEEApplication exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/backend_javaEEApplication_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="backend/javaeeApplication/javaEEApplication" />
+      <element id="directory" name="lib">
+        <element id="archive" name="backend.jar">
+          <element id="module-output" name="backend" />
+        </element>
+        <element id="library" level="project" name="Maven: org.projectlombok:lombok:1.18.22" />
+        <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-annotations:2.14.0" />
+        <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-core:2.14.0" />
+        <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-databind:2.14.0" />
+        <element id="library" level="project" name="Maven: com.mashape.unirest:unirest-java:1.4.9" />
+        <element id="library" level="project" name="Maven: commons-codec:commons-codec:1.9" />
+        <element id="library" level="project" name="Maven: commons-logging:commons-logging:1.2" />
+        <element id="library" level="project" name="Maven: jakarta.ws.rs:jakarta.ws.rs-api:3.0.0" />
+        <element id="library" level="project" name="Maven: org.apache.httpcomponents:httpasyncclient:4.1.1" />
+        <element id="library" level="project" name="Maven: org.apache.httpcomponents:httpclient:4.5.2" />
+        <element id="library" level="project" name="Maven: org.apache.httpcomponents:httpcore-nio:4.4.4" />
+        <element id="library" level="project" name="Maven: org.apache.httpcomponents:httpcore:4.4.4" />
+        <element id="library" level="project" name="Maven: org.apache.httpcomponents:httpmime:4.5.2" />
+        <element id="library" level="project" name="Maven: org.json:json:20160212" />
+      </element>
+      <element id="jpa-descriptors" facet="backend/jpa/JPA" />
+    </root>
+  </artifact>
+</component>
