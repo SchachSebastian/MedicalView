@@ -11,3 +11,11 @@ H
 my-app/public/robots.txt,7\7\77180da6a3a5113133f5558cc76f956985af805a
 @
 my-app/README.md,c\4\c46e4e9d189721e177f72e4ced4b3df7c28f57ee
+H
+my-app/public/index.html,b\7\b75001a4516010e8c2e0c3405705d90d633c3a35
+C
+my-app/package.json,7\a\7ae6c3b14ff0826e0b2f04711c2f18d25a3ef118
+H
+my-app/package-lock.json,2\9\29f26c5b7477421bfbacfc70ab42094d9898e4df
+S
+#.idea/sonarlint/issuestore/index.pb,9\f\9fe84ebb15faf917b7def6236dba604453cc61e0
